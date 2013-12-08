@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^(login/)$ index.php?login=true [L,QSA]
+RewriteRule ^work/([^/]*)$ index.php?work=$1 [L,QSA]
